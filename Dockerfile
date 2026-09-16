@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-COPY Text1.txt /Test1.txt
-CMD [ "cat","Text1.txt" ]
+COPY Test1.txt /Test1.txt
+CMD [ "cat","Test1.txt" ]
